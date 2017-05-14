@@ -1,7 +1,6 @@
 // Import libraries for making a component
 import React from 'react';
 import { Text, View } from 'react-native';
-//import Kinvey from 'kinvey-html5-sdk';
 
 // Make a component
 const Header = (props) => {
