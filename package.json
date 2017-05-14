@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "rndebugger-open"
   },
   "dependencies": {
     "axios": "^0.16.1",
     "kinvey-html5-sdk": "^3.5.0",
+    "kinvey-js-sdk": "^3.5.0",
     "react": "16.0.0-alpha.6",
     "react-native": "0.44.0"
   },
@@ -17,6 +19,7 @@
     "babel-preset-react-native": "1.9.1",
     "eslint-config-rallycoding": "^3.2.0",
     "jest": "20.0.1",
+    "react-native-debugger-open": "^0.3.8",
     "react-test-renderer": "16.0.0-alpha.6"
   },
   "jest": {
